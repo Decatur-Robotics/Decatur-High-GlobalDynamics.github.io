@@ -1,7 +1,9 @@
 ---
-title: Developer Environment Notes
+title: Developer Notes
 layout: page
 ---
+
+This could probably be split into different categories of documents...
 
 - [WPILib Documentation][wpilib-docs]
 - [Commands & Subsystems][commands-and-subsystems]

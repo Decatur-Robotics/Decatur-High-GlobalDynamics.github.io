@@ -6,4 +6,4 @@ layout: home
 ---
 Public Documenation Website for Decatur Robotics
 
-[Developer Environment Installation Notes](docs/devenv.md)
+[Developer Notes](docs/devenv.md)
