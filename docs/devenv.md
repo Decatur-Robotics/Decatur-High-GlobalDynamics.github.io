@@ -29,7 +29,7 @@ Notes on Importing old project
 - Open Command Palette
 - Command Palette can be accessed from the View menu or by pressing Ctrl+Shift+P (Cmd+Shift+P on Mac).
 - WPILib import eclipse project
-- Import Talon SRX Library - http://www.ctr-electronics.com/control-system/hro.html#product_tabs_technical_resources
+- [Import Talon SRX Library][ctre-talon-srx-resources] v5.12.1.0.zip
 - Add Talon SRX Library to VSCode
 - 55% (“Step 19” “Add CTRE Libraries”) from this document
 - Connect to robot
@@ -51,3 +51,4 @@ Connecting to robot: 4026_Mantis / team4026
 [rudyard-robotics-video-2]: https://www.youtube.com/watch?v=t-otjytqzCw
 [dronebot-walkthrough-video]: https://www.youtube.com/watch?v=391dXDjqzXA
 [sistem-sharing-pixy2]: https://www.youtube.com/watch?v=YWBXLoB47is&t=7s
+[ctre-talon-srx-resources]: http://www.ctr-electronics.com/control-system/hro.html#product_tabs_technical_resources
