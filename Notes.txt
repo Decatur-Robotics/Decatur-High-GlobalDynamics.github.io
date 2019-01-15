@@ -1,0 +1,49 @@
+# Initial install and configuration of github pages repository
+# The following documents what was done for intial Setup
+# DO NOT REPEAT THESE STEPS ON THE EXISTING REPOSITORY!!!
+
+Documentation Developer Environment Setup based on:
+# https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+
+# Pre-requisites: VSCode WPILib DevEnv and Git have been installed
+#
+# Initial Git configuration (if you haven't already done so)
+git config --global user.email "[your_github_associated_email_address]"
+git config --global user.name "[your_github_account_nane]"
+
+# (Ubuntu Linux) Make sure development tools and libraries are installed
+sudo apt install build-essential ruby ruby-dev zlib1g-dev
+sudo gem install commonmarker -v '0.17.13' --source 'https://rubygems.org/'
+sudo gem install nokogiri -v '1.10.1' --source 'https://rubygems.org/'
+
+# Clone organization github pages repository
+# mkdir and/or cd to where ever you store your git repositories
+git clone https://github.com/Decatur-High-GlobalDynamics/Decatur-High-GlobalDynamics.github.io.git
+cd Decatur-High-GlobalDynamics.github.io/
+
+# Open in VS Code
+code .
+
+# If a terminal is not open by default from menu select [Terminal], [New Terminal]
+# Set keyboard input focus to the terminal by clicking on it or typing [Ctrl]+[`]
+
+# Setup local jykell doc dev environment
+bundle install
+bundle exec jekyll _3.3.0_ new . --force
+
+# In vscode explorer panel click on Gemfile to edit
+# find and comment out '#' the following line:
+gem "jekyll", "~> 3.7.4"
+
+# find and remove the comment '#' from the following line:
+# gem "github-pages", group: :jekyll_plugins
+
+git add --all
+git commit -m "[Put your commit description here]"
+git push -u origin master
+
+
+
+sudo gem install nokogiri -v '1.10.1' --source 'https://rubygems.org/'
+
+ruby --version
