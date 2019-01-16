@@ -35,8 +35,6 @@ Notes on Importing old project
 - Connect to robot
 - Command Palatte: “WPILib Build Robot Code”
 
-Connecting to robot: 4026_Mantis / team4026
-
 [wpilib-docs]: https://wpilib.screenstepslive.com/s/currentCS
 [commands-and-subsystems]: https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893
 [east-robotics-youtube-playlist]: https://www.youtube.com/playlist?list=PLUSdSy9CkwBIiISFMa_ThWmtFCKtYLUE_
