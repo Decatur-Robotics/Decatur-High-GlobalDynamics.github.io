@@ -25,7 +25,7 @@ git clone https://github.com/Decatur-High-GlobalDynamics/Decatur-High-GlobalDyna
 ```
 
 - open the new repository directory in vs code
-- follow [these directions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#platform-windows)
+- follow [these directions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#platform-windows) skipping steps #1 and #3
 
 [github-guides]: https://guides.github.com/
 [markdown-syntax]: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
