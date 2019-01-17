@@ -4,7 +4,29 @@ layout: page
 ---
 This could probably be split into different categories of documents...
 
-- [Our scouting app (based on team 2102's)][team4026-roborecon-app-repo]
+- DriverStation
+  - Driver Station NI [FRC 2019 Update Suite Install](https://forums.ni.com/t5/FIRST-Robotics-Competition/FRC-2019-Update-Suite/ta-p/3861427) instructions... (Password is $Robots&in#SPACE!!)
+- Git
+  - [Free Git book (pdf)](https://git-scm.com/book/en/v2)
+  - [Recommended global configuration to enable creating remote branches][git-default-config-remote-branch]
+
+        git config --global push.default current
+
+- Gradle
+  - How to [configure build.gradle to show unchecked warnings and deprecations][make-gradle-show-warnings]. Add the following to build.gradle:
+
+        compileJava {
+            options.encoding = 'UTF-8'
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+        
+        compileTestJava {
+            options.encoding = 'UTF-8'
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+
+- Scouting
+  - [Our scouting app (based on team 2102's)][team4026-roborecon-app-repo]
 - [WPILib Documentation][wpilib-docs]
 - [Commands & Subsystems][commands-and-subsystems]
 - Youtube Videos
@@ -24,7 +46,7 @@ This could probably be split into different categories of documents...
 - [siSTEM sharing Pixy2 experience][sistem-sharing-pixy2] [FTC only]
 
 
-Notes on Importing old project
+# Notes on Importing old project
 - Launched VSCode
 - Open Command Palette
 - Command Palette can be accessed from the View menu or by pressing Ctrl+Shift+P (Cmd+Shift+P on Mac).
@@ -35,6 +57,29 @@ Notes on Importing old project
 - Connect to robot
 - Command Palatte: “WPILib Build Robot Code”
 
+## Old Alpha notes on setting up dev env
+
+# VS Code Setup
+- [FRC Plugin Install Guide](https://wpilib.screenstepslive.com/s/currentCS/a/932382-installing-visual-studio-code-c-java)
+- [WPILib](https://github.com/wpilibsuite/vscode-wpilib)
+- [WPILib 2](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/1027060-visual-studio-code-basics-and-the-wpilib-extension)
+- [Setup WPILib Project](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/1027062-creating-a-robot-program)
+
+# Setting Up Driver Station and RoboRIO
+- [Instruction Manual Update Suite](https://forums.ni.com/t5/FIRST-Robotics-Competition/FRC-2019-Update-Suite/ta-p/3861427)
+- [Known issue with Driver Station](https://github.com/wpilibsuite/allwpilib/issues/1532)
+
+# 2018 Code Update
+- [WPILib API](http://first.wpi.edu/FRC/roborio/release/docs/java/)
+- [WPILib Plugin Changelog](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/837061-c-java-plugin-changelog)
+
+# Coding Standards
+- [Java](https://docs.google.com/document/d/1dtUXsO5NYfXWg4fBMzcRnjsHshb5kiMHxoAjeThrsic/edit)
+
+# Raspberry Pi
+- [Vision](http://wpilib.screenstepslive.com/s/currentCS/m/85074)
+
+[gradle-warnings-deprecations]: https://stackoverflow.com/questions/18689365/how-to-add-xlintunchecked-to-my-android-gradle-based-project
 [wpilib-docs]: https://wpilib.screenstepslive.com/s/currentCS
 [commands-and-subsystems]: https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893
 [east-robotics-youtube-playlist]: https://www.youtube.com/playlist?list=PLUSdSy9CkwBIiISFMa_ThWmtFCKtYLUE_
@@ -51,3 +96,5 @@ Notes on Importing old project
 [sistem-sharing-pixy2]: https://www.youtube.com/watch?v=YWBXLoB47is&t=7s
 [ctre-talon-srx-resources]: http://www.ctr-electronics.com/control-system/hro.html#product_tabs_technical_resources
 [team4026-roborecon-app-repo]: https://github.com/Decatur-High-GlobalDynamics/roborecon-app
+[make-gradle-show-warnings]: https://stackoverflow.com/questions/18689365/how-to-add-xlintunchecked-to-my-android-gradle-based-project
+[git-default-config-remote-branch]: https://stackoverflow.com/questions/1519006/how-do-you-create-a-remote-git-branch/27185855#27185855
