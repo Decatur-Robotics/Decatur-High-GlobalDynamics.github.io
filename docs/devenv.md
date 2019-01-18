@@ -28,7 +28,13 @@ FRC 2019 Code development takes place in [the team's private repository][team402
 - Email our team github org maintainer (Aaron) to request a team invite
 - Clone the [code repository][team4026-frc2019-repo] and add yourself to /COMMITTERS.txt (Note you will not have access to the code repository until after you have requested, recieved, and accepted an invite from the team's github organization.)
 
-[Github Guides][github-guides] provides a general overview of: git, github, github pages, forking projects, issues, tracking people and projects, markdown, and documentation. It should take a little less than an hour and a half to read through all of the guides.
+# Optional
+
+- Setup ssh key authentication ([windows](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows)) ([linux](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux)) ([mac](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac))
+
+# Futher Reading...
+
+- [Github Guides][github-guides] provides a general overview of: git, github, github pages, forking projects, issues, tracking people and projects, markdown, and documentation. It should take a little less than an hour and a half to read through all of the guides.
 
 [github-guides]: https://guides.github.com/
 [team4026-frc2019-repo]: https://github.com/Decatur-High-GlobalDynamics/FRC-2019-Team-4026
