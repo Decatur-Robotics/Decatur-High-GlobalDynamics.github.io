@@ -79,6 +79,9 @@ This could probably be split into different categories of documents...
 # Raspberry Pi
 - [Vision](http://wpilib.screenstepslive.com/s/currentCS/m/85074)
 
+# Contributing to WPILib
+- [2018 Developer Presentation](https://cpb-us-w2.wpmucdn.com/wp.wpi.edu/dist/1/35/files/2018/05/Building-and-Contributing-to-WPILib-2018.pdf)
+
 [gradle-warnings-deprecations]: https://stackoverflow.com/questions/18689365/how-to-add-xlintunchecked-to-my-android-gradle-based-project
 [wpilib-docs]: https://wpilib.screenstepslive.com/s/currentCS
 [commands-and-subsystems]: https://wpilib.screenstepslive.com/s/currentCS/m/java/c/88893
