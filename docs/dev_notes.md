@@ -4,6 +4,15 @@ layout: page
 ---
 This could probably be split into different categories of documents...
 
+- Shuffleboard
+  - workaround for error can not find vbs script file while starting DriverStation
+    - In DriverStation set "Dashboard Type" drop down menu to Shuffleboard
+    - Open text editor for C:\Users\Public\Documents\FRC\FRC DS Data Storage.ini
+    - Change the DashboardCmdLine to match the following:
+```
+    DashboardCmdLine = "wscript "C:\\Users\\Public\\frc2019\\tools\\SmartDashboard.vbs""
+```
+
 - FRC Programming General Reference
   - [FRC Programming Done Right v0.2](https://media.readthedocs.org/pdf/frc-pdr/latest/frc-pdr.pdf)
 - DriverStation
