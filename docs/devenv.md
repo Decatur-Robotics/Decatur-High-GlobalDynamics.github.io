@@ -24,6 +24,12 @@ FRC 2019 Code development takes place in [the team's private repository][team402
   - Windows developers need to make sure you:
     - manually "click Select/Download VSCode" when running the installer
     - [download and install git][git-download]
+    - configure (global) git settings
+```
+    git config --global user.name "[your_github_account_name]"
+    git config --global user.email "[your_github_email_address]"
+    git config --global push.default current
+```
 - [Setup a personal github account][create-github-account]
 - Email our team github org maintainer (Aaron) to request a team invite
 - Clone the [code repository][team4026-frc2019-repo] and add yourself to /COMMITTERS.txt (Note you will not have access to the code repository until after you have requested, recieved, and accepted an invite from the team's github organization.)
