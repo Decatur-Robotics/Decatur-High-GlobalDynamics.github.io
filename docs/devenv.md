@@ -33,10 +33,16 @@ FRC 2019 Code development takes place in [the team's private repository][team402
 ```
 - Email our team github org maintainer (Aaron) providing your github account name to request a team invite
 - Clone the [code repository][team4026-frc2019-repo]
-
 <span style="display:block">![clone screenshot](/assets/images/clone.png)</span>
+- Open command prompt and execute...
+<span style="display:block">![clone_command screenshot](/assets/images/clone_command.png)</span>
+- Open Visual Studio (FRC VS Code 2019) and open the FRC-2019-Team-4026 folder 
+- Add your name and github username to /COMMITTERS.txt (Note you will not have access to the code repository until after you have requested, recieved, and accepted an invite from the team's github organization.)
+- Push changes to github
+```
+    git push
+```
 
-- Add yourself to /COMMITTERS.txt (Note you will not have access to the code repository until after you have requested, recieved, and accepted an invite from the team's github organization.)
 
 # Optional
 
