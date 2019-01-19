@@ -19,13 +19,13 @@ FRC 2019 Code development takes place in [the team's private repository][team402
 
 # DevEnv Setup and Configuration
 
-- [Setup a personal github account][create-github-account]
 - [Installing C++ and Java Development Tools for FRC][1027503-installing-c-and-java-development-tools-for-frc]
   - Ubuntu linux developers should read and follow [these linux specific notes][frc2019-vscode-and-3rd-party-install]. make sure you read the replies and comments.
   - Windows developers need to make sure you:
     - manually "click Select/Download VSCode" when running the installer
     - [download and install git][git-download]
-    - configure (global) git settings
+- [Setup a personal github account][create-github-account]
+- Configure (global) git settings
 ```
     git config --global user.name "[your_github_account_name]"
     git config --global user.email "[your_github_email_address]"
