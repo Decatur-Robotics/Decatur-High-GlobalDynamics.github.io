@@ -19,6 +19,7 @@ FRC 2019 Code development takes place in [the team's private repository][team402
 
 # DevEnv Setup and Configuration
 
+- [Setup a personal github account][create-github-account]
 - [Installing C++ and Java Development Tools for FRC][1027503-installing-c-and-java-development-tools-for-frc]
   - Ubuntu linux developers should read and follow [these linux specific notes][frc2019-vscode-and-3rd-party-install]. make sure you read the replies and comments.
   - Windows developers need to make sure you:
@@ -30,7 +31,6 @@ FRC 2019 Code development takes place in [the team's private repository][team402
     git config --global user.email "[your_github_email_address]"
     git config --global push.default current
 ```
-- [Setup a personal github account][create-github-account]
 - Email our team github org maintainer (Aaron) to request a team invite
 - Clone the [code repository][team4026-frc2019-repo] and add yourself to /COMMITTERS.txt (Note you will not have access to the code repository until after you have requested, recieved, and accepted an invite from the team's github organization.)
 
