@@ -4,6 +4,8 @@ layout: page
 ---
 This could probably be split into different categories of documents...
 
+- FRC Programming General Reference
+  - [FRC Programming Done Right v0.2](https://media.readthedocs.org/pdf/frc-pdr/latest/frc-pdr.pdf)
 - DriverStation
   - Driver Station NI [FRC 2019 Update Suite Install](https://forums.ni.com/t5/FIRST-Robotics-Competition/FRC-2019-Update-Suite/ta-p/3861427) instructions... (Password is $Robots&in#SPACE!!)
 - Git
