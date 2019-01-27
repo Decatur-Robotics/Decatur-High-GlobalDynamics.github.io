@@ -35,6 +35,8 @@ This could probably be split into different categories of documents...
             options.encoding = 'UTF-8'
             options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
         }
+- Checkstyle
+    - You can work on [Checkstyle](http://checkstyle.sourceforge.net/index.html) configurations by reading the [Extending Checkstyle Section](http://checkstyle.sourceforge.net/extending.html).
 
 - Scouting
   - [Our scouting app (based on team 2102's)][team4026-roborecon-app-repo]
