@@ -36,6 +36,7 @@ This could probably be split into different categories of documents...
             options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
         }
 - Checkstyle
+    - Download Checkstyle by pressing `CTRL + Shift + X` in VSCode and typing in `CheckStyle for Java`
     - You can work on [Checkstyle](http://checkstyle.sourceforge.net/index.html) configurations by reading the [Extending Checkstyle Section](http://checkstyle.sourceforge.net/extending.html).
 
 - Scouting
