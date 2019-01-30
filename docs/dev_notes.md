@@ -4,6 +4,7 @@ layout: page
 ---
 This could probably be split into different categories of documents...
 
+- [HOWTO: NavX MXP firmware update](navx.md)
 - Shuffleboard
   - workaround for error can not find vbs script file while starting DriverStation
     - In DriverStation set "Dashboard Type" drop down menu to Shuffleboard
