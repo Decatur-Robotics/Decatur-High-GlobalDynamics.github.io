@@ -25,11 +25,11 @@ github_username:  decatur-high-globaldynamics
 header_pages:
   - about.md
 # Build settings
-markdown: kramdown
+markdown: GFM
 theme: minima
 plugins:
   - jekyll-feed
-
+ 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

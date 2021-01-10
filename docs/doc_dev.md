@@ -6,8 +6,8 @@ layout: page
 Welcome technical documentation developers! Thank you for lowering barriers and making the learning curve a gentler climb. Doc development takes place in the [github pages][github-pages-overview] [documentation repository][team4026-doc-repo] for @Decatur-High-GlobalDynamics.
 
 # Pre-requisites for contributors:
-- [development environment](docs/devenv.md)
-- understanding of [git basics](/docs/git_basics.md)
+- [development environment](devenv.md)
+- understanding of [git basics](git_basics.md)
 - understanding of [markdown][markdown-syntax]
 - complete the hello world exercise to demonstrate mastery of the basics (TODO)
 

@@ -3,7 +3,7 @@ title: Developer Environment Basics
 layout: page
 ---
 
-The [Developer Notes](/docs/dev_notes.md) scratchpad has been moved.... 
+The [Developer Notes](dev_notes.md) scratchpad has been moved.... 
 
 # Synopsis: Everything coders need to git up and running for FRC 2019
 
@@ -13,7 +13,7 @@ FRC 2019 Code development takes place in [the team's private repository][team402
 
 # Pre-requisites for contributors:
 - installation of the frc 2019 developer environment w/ talon srx add-on support (this document)
-- understanding of [git basics](/docs/git_basics.md)
+- understanding of [git basics](git_basics.md)
 - usage of the team's github workflow
 - complete the hello world exercise to demonstrate mastery of the basics (TODO)
 
