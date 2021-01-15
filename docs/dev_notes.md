@@ -59,4 +59,4 @@ layout: page
 
 
 # Contributing to WPILib
-- [2018 Developer Presentation](https://cpb-us-w2.wpmucdn.com/wp.wpi.edu/dist/1/35/files/2018/05/Building-and-Contributing-to-WPILib-2018.pdf)
+- [Official Guidelines](https://wpilib.org/contributing)
