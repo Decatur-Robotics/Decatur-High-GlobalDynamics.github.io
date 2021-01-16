@@ -8,8 +8,7 @@ Public Documenation Website for Decatur Robotics
 
 # General
 - [Developer Environment Basics](docs/devenv.md): build!
-- [Git Basics](docs/git_basics.md): share!
-- [Developer Notes](docs/dev_notes.md): explore! (scratch-pad)
-- [Documentation Developer Intro](docs/doc_dev.md): enlighten!
+- [Developer Notes](docs/dev_notes.md): share! (scratch-pad)
+- [Documentation Developer Intro](docs/doc_dev.md): explore!
 
 

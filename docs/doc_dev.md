@@ -7,17 +7,16 @@ Welcome technical documentation developers! Thank you for lowering barriers and 
 
 # Pre-requisites for contributors:
 - [development environment](devenv.md)
-- understanding of [git basics](git_basics.md)
+- understanding of [git basics](https://docs.wpilib.org/en/stable/docs/software/basic-programming/git-getting-started.html?highlight=testing#git-version-control-introduction)
 - understanding of [markdown][markdown-syntax]
-- complete the hello world exercise to demonstrate mastery of the basics (TODO)
 
 # Optional:
-- enable local testing by installing ruby and jekyll (Guide Needed)
+- [Testing your GitHub Pages site locally with Jekyll][github-pages-execute-locally]
 
 [Github Guides][github-guides] provides a general overview of: git, github, github pages, forking projects, issues, tracking people and projects, markdown, and documentation. It should take a little less than an hour and a half to read through all of the guides.
 
 # Steps:
-- open a terminal and navigate to the directory where you put your git repositories
+- open a terminal and navigate to the directory where you put your github pages repositories
 - clone the documentation repository
 
 ```
@@ -25,9 +24,9 @@ git clone https://github.com/Decatur-High-GlobalDynamics/Decatur-High-GlobalDyna
 ```
 
 - open the new repository directory in vs code
-- follow [these directions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#platform-windows) skipping steps #1 and #3
 
 [github-guides]: https://guides.github.com/
 [markdown-syntax]: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 [github-pages-overview]: https://help.github.com/categories/github-pages-basics/
 [team4026-doc-repo]: https://github.com/Decatur-High-GlobalDynamics/Decatur-High-GlobalDynamics.github.io
+[github-pages-execute-locally]: https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll

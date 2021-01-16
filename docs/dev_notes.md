@@ -4,7 +4,9 @@ layout: page
 ---
 
 # General Resources
-- Git [Free Git book (pdf)](https://git-scm.com/book/en/v2)
+- Git
+  - [wpilib Git Version Control Introduction](https://docs.wpilib.org/en/stable/docs/software/basic-programming/git-getting-started.html?highlight=testing#git-version-control-introduction)
+  - [Free Git book (pdf)](https://git-scm.com/book/en/v2)
 - [WPILib Documentation](https://docs.wpilib.org/en/stable/)
 
 # Annual Updates
@@ -60,3 +62,6 @@ layout: page
 
 # Contributing to WPILib
 - [Official Guidelines](https://wpilib.org/contributing)
+
+# Tiny Little Details
+- [linux and non-wpilib vscode w/ wpilib](https://www.chiefdelphi.com/t/installation-of-the-2019-vscode-and-third-party-libraries-on-ubuntu/340789)
