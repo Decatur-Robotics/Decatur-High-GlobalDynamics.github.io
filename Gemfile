@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # CVE-2015-3227 remediation require activesupport >= 4.1.11
 # gem "activesupport", ">= 4.1.11"
+
+# webrick is no longer a bundled gem in Ruby 3.0
+gem "webrick"
