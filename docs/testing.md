@@ -1,5 +1,5 @@
 ---
-title: Testing and Simulation Notes for FRC 2021
+title: Testing and Simulation Notes FRC 2021
 layout: page
 ---
 
@@ -16,36 +16,40 @@ layout: page
 
 # Changes required to devenv and code
 
-- Note: Gradle builds will automatically run tests and fail on test failure
+- Note: ** ./gradlew build ** will already automatically run tests and fail on test failure
 - Updates to build.gradle: add repositories and mockito dependency
+#### **`build.gradle`**
+```
+...
 
-```yaml
 repositories {
     mavenCentral()
     mavenLocal()
     jcenter()
     flatDir {
-            // The directory lib is available as a source for dependencies - we put any JAR files here
-            // The directory lib will always be one folder "above" a subproject folder - thus the ".."
+            // The directory lib is available as a source for dependencies
+            // We put any JAR files here. The directory lib will always be
+            // one folder "above" a subproject folder - thus the ".."
             dirs '../lib'
         }
     maven { url 'https://jitpack.io' }
 }
-```
 
-```yaml
+...
+
 dependencies {
-    [...]
+    ...
     testImplementation 'org.mockito:mockito-core:2.+'
-    [...]
+    ...
 }
 ```
-- Refactor subsystems to decouple subsystem constructor from hardware instances
+- Refactor subsystems to decouple hard wiring to hardware object instances
 
-  - To allow mocking and testing the tight coupling of instantiating new instances of hardware objects within the subsystem constructor needs to be refactored so that the subsystem constructor takes those object instances as parameters. This will allow tests to inject mocked dependencies into the subsystem. I.e. allowing the tests to run without actual hardware being present. 
+  - Why? To allow mocking and testing the tight coupling of instantiating new instances of hardware objects within the subsystem constructor needs to be refactored so that the subsystem constructor takes those object instances as parameters. This will allow tests to inject mocked dependencies into the subsystem. I.e. allowing the tests to run without actual hardware being present. 
   
   - For example refactor ClimberSubsystem from
 
+#### **`./src/main/java/frc/robot/subsystems/ClimberSubsystem.java`**
 ```java
 public class ClimberSubsystem extends SubsystemBase {
   private final WPI_VictorSPX leftClimber;
@@ -126,9 +130,7 @@ public class RobotContainer {
 ## Creating Unit Tests
 
 Create new tests in a mirrored test directory structure using [original classname] + Test.java.
-
-[./src/test/java/frc/robot/subsystem/ClimberSubsystemTest.java]
-
+#### **`./src/test/java/frc/robot/subsystems/ClimberSubsystemTest.java`**
 ```java
 package frc.robot.subsystems;
 
