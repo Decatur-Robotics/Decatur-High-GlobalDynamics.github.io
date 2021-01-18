@@ -6,7 +6,7 @@ layout: page
 # Priorities and Goals
 
 1. Avoid going backwards
-2. Enable code to progress when access to robots, driver stations, etc. is limited
+2. Enable software development to progress when access to robots, driver stations, etc. is limited
 3. Manage complexity (without adding much)
 
 # Types of Software Testing
