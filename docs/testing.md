@@ -16,10 +16,10 @@ layout: page
 
 # Changes required to devenv and code
 
-- Note: qGradle builds will automatically run tests and fail on test failure
+- Note: Gradle builds will automatically run tests and fail on test failure
 - Updates to build.gradle: add repositories and mockito dependency
 
-```
+```yaml
 repositories {
     mavenCentral()
     mavenLocal()
@@ -33,7 +33,7 @@ repositories {
 }
 ```
 
-```
+```yaml
 dependencies {
     [...]
     testImplementation 'org.mockito:mockito-core:2.+'
@@ -46,7 +46,7 @@ dependencies {
   
   - For example refactor ClimberSubsystem from
 
-```
+```java
 public class ClimberSubsystem extends SubsystemBase {
   private final WPI_VictorSPX leftClimber;
   private final WPI_TalonSRX rightClimber;
@@ -69,7 +69,7 @@ public class ClimberSubsystem extends SubsystemBase {
 
 to
 
-```
+```java
 public class ClimberSubsystem extends SubsystemBase {
   private WPI_VictorSPX leftClimber;
   private WPI_TalonSRX rightClimber;
@@ -109,7 +109,7 @@ public class ClimberSubsystem extends SubsystemBase {
 
 and refactor all code which creates instances of the ClimberSubsystem from:
 
-```
+```java
 public class RobotContainer {
   ...
   private ClimberSubsystem climber = new ClimberSubsystem();
@@ -117,7 +117,7 @@ public class RobotContainer {
 
 to
 
-```
+```java
 public class RobotContainer {
   ...
   private ClimberSubsystem climber = ClimberSubsystem.Create();
@@ -125,11 +125,11 @@ public class RobotContainer {
 
 ## Creating Unit Tests
 
-Create new tests in a mirrored directory structure using [original classname] + Test.java
+Create new tests in a mirrored test directory structure using [original classname] + Test.java.
 
 [./src/test/java/frc/robot/subsystem/ClimberSubsystemTest.java]
 
-```
+```java
 package frc.robot.subsystems;
 
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
