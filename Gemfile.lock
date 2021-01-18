@@ -1,9 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.2.22.5)
-      i18n (~> 0.6, >= 0.6.4)
-      multi_json (~> 1.0)
+    activesupport (6.0.3.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
@@ -208,7 +211,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    multi_json (1.15.0)
+    minitest (5.14.3)
     multipart-post (2.1.1)
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
@@ -245,6 +248,8 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
+    tzinfo (1.2.9)
+      thread_safe (~> 0.1)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2020.6)
@@ -253,11 +258,10 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     webrick (1.7.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
-  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
@@ -265,7 +269,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.0)
   webrick
 
 BUNDLED WITH
